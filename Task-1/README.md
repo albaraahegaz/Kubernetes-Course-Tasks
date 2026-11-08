@@ -77,7 +77,6 @@ Opening `http://localhost:8080` shows the page. After refreshing, the time chang
 | 7 | Time updates | Two reads 5 seconds apart show different times |
 | 8 | No volumes | `jsonpath='{.spec.template.spec.volumes}'` prints nothing |
 
-![Volumes check](screenshots/04-no-volumes.png)
 
 ### 6. Make the init container fail
 
